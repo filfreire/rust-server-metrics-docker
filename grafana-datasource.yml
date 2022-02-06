@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: rust-server-metrics
+    type: influxdb
+    access: proxy
+    database: rust-server-metrics
+    url: http://localhost:8086
+    isDefault: true
